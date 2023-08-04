@@ -1,1 +1,1 @@
-worker: php index.php
+web: tgbot web/
