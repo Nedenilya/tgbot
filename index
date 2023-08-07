@@ -7,6 +7,7 @@ $data = json_decode(file_get_contents('php://input'), TRUE);
 
 //https://api.telegram.org/bot6195994166:AAEPVRzXEfsxyESYvfMvDUuZWVSSx_FFpcE/setwebhook?url=http://tgbot/
 
+//https://api.telegram.org/bot6195994166:AAEPVRzXEfsxyESYvfMvDUuZWVSSx_FFpcE/setWebhook?url=http://t44737te.beget.tech/
 
 # Обрабатываем ручной ввод или нажатие на кнопку
 $data = $data['callback_query'] ? $data['callback_query'] : $data['message'];
